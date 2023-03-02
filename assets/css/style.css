@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.container-list {
+    position: relative;
+}
+.header-title {
+    width: 21vw;
+    height: 40px;
+    float: left;
+    margin-right: 20px;
+    background-color: #FA522E;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.header-item {
+    height: 40px;
+    background: #f5f5f5;
+    
+}
+.header-icon {
+    float: left;
+    width: 3%;
+    line-height: 23px;
+    background-color: #FA522E;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.header-text {
+    line-height: 40px;
+}
+.header-text a {
+    text-decoration: none;
+}
+
+.list-sanpham {
+    width: 21vw;
+}
+.list-sanpham ul{
+    list-style: none;
+}
+
+.item-list-sanpham {
+    border-bottom: 1px solid #ccc;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+}
+
+.sub-list-sanpham {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 135px;
+    left: 21vw; /* 21% man hinh*/
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12)
+}
+.sub-list-sanpham ul {
+    list-style: none;
+    font-size: 15px;
+}
+.item-list-sanpham:hover .sub-list-sanpham {
+    display: flex;
+}
+.list-sanpham:hover {
+    background-color: #ccc;
+}
+
+.list-item {
+    width: 180px;
+    padding: 10px;
+}
+.title-list {
+    color: red;
+    font-weight: bold;
+}

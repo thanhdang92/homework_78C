@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+
+}
+.container-list {
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+}
+.header-title {
+    background-color: red;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    width: 20vw;
+}
+
+.header-sub {
+    margin-left: 20px;
+    line-height: 40px;
+}
+.header-sub a {
+    text-decoration: none;
+    color: rgb(100, 28, 155);
+    padding-left: 10px;
+}
+.header-sub a:hover {
+    color: red;
+}
+.header-sub i {
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.product {
+    position: relative;
+}
+.list-product {
+    width: 20vw;
+    height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.item-product {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.list-product:hover {
+    background-color: #ddd;
+}
+.list-product:hover .sub-list-product {
+    display: flex;
+}
+.sub-list-product {
+    display: none;
+    border: 1px solid #ddd;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    right: 15vw;
+
+}
+.list-item {
+    padding: 10px;
+    margin: 15px;
+    line-height: 1.6;
+}
+.list-item ul {
+    list-style: none;
+}
+.title-list {
+    color: red;
+    font-weight: bold;
+}

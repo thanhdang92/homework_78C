@@ -1,0 +1,21 @@
+/* @media only screen and (max-width: 1024px) {
+    .header-title {
+        font-size: 15px;
+        clear: left;
+    }
+    .header-item {
+        display: none;
+    }
+} */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+    .header-title {
+        font-size: 10px;
+    }
+    .header-item {
+        display: none;
+    }
+
+}
